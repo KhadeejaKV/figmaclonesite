@@ -1,0 +1,147 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 20px;
+}
+.list-item{
+    display: inline-block;
+    list-style: none;
+    
+}
+.links{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    margin: 0px 10px;
+}
+.logo-section{
+    display: flex;
+    justify-content: inline;
+   
+}
+.logo{
+    width: 20px;
+}
+.servicecontainer-1{
+    height: 356px;
+    background-image: url(./images/services/serbg1.png);
+    margin-top: 10px;
+    padding: 50px;
+}
+#mainhead{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.servicecontainer-2>.cardset-1{
+    margin: 80px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.servicecontainer-2>.cardset-2{
+    margin: 80px;
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    
+}
+.cardset-2>.card{
+    background-color: cornsilk;
+    border-radius: 25px;
+    color: darksalmon;
+}
+.card-link{
+    text-decoration: none;
+    color: black;
+    padding-top: 20px;
+}
+.servicecontainer-3{
+    margin: 100px;
+}
+.servicecontainer-3>.headpart{
+    text-align: center;
+    margin: 100px;
+}
+.work-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 100px;
+}
+#count-1{
+    color: coral;
+    size: 100px;
+    text-align: end;
+}
+#count-2{
+    color: coral;
+    size: 100px;
+    text-align: left;
+}
+.detail{
+    margin: 20px;
+}
+.detail>h4{
+    padding-top: 200px;
+}.servicecontainer-4{
+    height: 430px;
+    background-image: url(./images/homecon9.png);
+    background-position: 100%;
+    margin-top: 10px;
+    padding: 50px;
+}
+.servicecontainer-4>.c4-contents{
+    margin-top: 20px;
+    text-align: center;
+}
+#subqt{
+    font-size: 20px;
+    color: white; 
+    
+}
+#contact-button{
+    width: 170px;
+    text-decoration: none;
+    background-color:burlywood;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: burlywood;
+    margin-top: 30px;
+    display: inline-block;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin: 30px;
+}
+.social-icons{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+.pages>ul{
+    list-style: none;
+}
+.services>ul{
+    list-style: none;
+}
+#footer-link{
+    text-decoration: none;
+    color: black;
+    
+}
+#copyright{
+    text-align: center;
+}
+
+
+
+
+
+

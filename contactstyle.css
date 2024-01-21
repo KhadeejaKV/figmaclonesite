@@ -1,0 +1,126 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 20px;
+}
+.list-item{
+    display: inline-block;
+    list-style: none;
+    
+}
+.links{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    margin: 0px 10px;
+}
+.logo-section{
+    display: flex;
+    justify-content: inline;
+}
+.logo{
+    width: 20px;
+}
+.contactcontainer-1{
+    height: 300px;
+    background-image: url(./images/contact/contactbg1.png);
+    background-clip: border-box;
+    margin-top: 10px;
+    padding: 50px;
+}
+.contactcontainer-2{
+    margin: 80px;
+}
+.contactcontainer-2>.title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr)
+}
+.contact-icons{
+    padding: 80px;
+}
+.contact-info{
+    margin-left: 70px;
+    padding-top: 30px;
+    color: coral;
+    justify-content: space-around;
+}
+.contact-info>i:hover {
+    animation: move 1s;
+}
+.social-icon:hover{
+    animation: move 1s;
+}
+@keyframes move {
+    0%{
+        transform: rotate(15deg);
+    }
+    25%{
+        transform: rotate(-15deg);
+    }
+    50%{
+        transform: rotate(15deg);
+    }
+    75%{
+        transform: rotate(-15deg);
+    }
+    100%{
+        transform: rotate(15deg);
+    }
+}
+.contact-icons>.social-icons{
+    padding-top: 30px;
+}
+.contact-query-button{
+    text-decoration: none;
+    background-color:black;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    border-color:black;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+.location-container{
+    margin:50px 250px;
+    width: 800px;
+    height: 400px;
+    background-image: url(./images/contact/mapimg.png);
+    border-radius: 50px;
+}
+#location-icon{
+    margin-left: 300px;
+    margin-top: 300px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin: 30px;
+}
+.social-icons{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    padding-top: 30px;
+    
+}
+.pages>ul{
+    list-style: none;
+}
+.services>ul{
+    list-style: none;
+}
+#footer-link{
+    text-decoration: none;
+    color: black;
+    
+}
+#copyright{
+    text-align: center;
+}

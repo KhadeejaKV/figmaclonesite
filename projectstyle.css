@@ -1,0 +1,141 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 20px;
+}
+.list-item{
+    display: inline-block;
+    list-style: none;
+    
+}
+.links{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    margin: 0px 10px;
+}
+.logo-section{
+    display: flex;
+    justify-content: inline;
+   
+}
+.logo{
+    width: 20px;
+}
+.projectcontainer-1{
+    height: 356px;
+    background-image: url(./images/project/projectbg1.png);
+    margin-top: 10px;
+    padding: 50px;
+}
+#mainhead{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+.long-bar{
+    padding:5px 300px;
+}
+#sub-button{
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: burlywood;
+    margin-top: 30px;
+    background-color: white;
+ }
+ #sub-button:hover{
+    background-color: burlywood;
+ }
+ .bedroomcards-1{
+    margin: 20px 190px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bedroomcards-2{
+    margin: 20px 190px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bedroomcards-3{
+    margin: 20px 190px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.br-card{
+    border-color: white;
+}
+.br-card>.card-body{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+#project-arrow-icon{
+   background-color: beige;
+   width: 50px;
+   height: 50px;
+   border-radius:50%;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    margin: 0px 10px; 
+}
+#project-arrow-icon:hover {
+    animation: move 1s;
+}
+@keyframes move {
+    0%{
+        transform: rotate(15deg);
+    }
+    25%{
+        transform: rotate(-15deg);
+    }
+    50%{
+        transform: rotate(15deg);
+    }
+    75%{
+        transform: rotate(-15deg);
+    }
+    100%{
+        transform: rotate(15deg);
+    }
+}
+#icon-link{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin: 30px;
+}
+.social-icons{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+.pages>ul{
+    list-style: none;
+}
+.services>ul{
+    list-style: none;
+}
+#footer-link{
+    text-decoration: none;
+    color: black;
+    
+}
+#copyright{
+    text-align: center;
+}
